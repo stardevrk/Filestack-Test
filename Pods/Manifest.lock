@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CryptoSwift (1.2.0)
+  - Filestack (2.2):
+    - Alamofire (~> 4.9)
+    - FilestackSDK (~> 2.2)
+    - SSZipArchive (= 2.2.2)
+    - SVProgressHUD (~> 2.2)
+  - FilestackSDK (2.2):
+    - Alamofire (~> 4.9)
+    - CryptoSwift (~> 1.0)
+  - SSZipArchive (2.2.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Filestack
+  - FilestackSDK (~> 2.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - Filestack
+    - FilestackSDK
+    - SSZipArchive
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CryptoSwift: 40e374e45291d8dceedcb0d6184da94533eaabdf
+  Filestack: d7129c4c2705bd0b2b0878ac6eb18490d523bb78
+  FilestackSDK: 9b957e704b0b247d085afe245edf8396adaf04fc
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 2a1308d145e393aad95f46565a8e4eb7c4a375c6
+
+COCOAPODS: 1.8.4
