@@ -127,11 +127,15 @@
 //                       message:[NSString stringWithFormat:@"Finished storing files with handles: %@", joinedHandles]];
             NSString *resultDescription = [descriptions componentsJoinedByString:@", "];
             NSLog(@"Success: %@", resultDescription);
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Upload Succss" message:@"Uploading is finished" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel", nil];
+            [alert show];
         } else {
             NSString *joinedErrors = [errorMessages componentsJoinedByString:@", "];
 //            [self presentAlert:@"Error Uploading File"
 //                       message:joinedErrors];
             NSLog(@"Success: %@", joinedErrors);
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Upload Failed!" message:@"Uploading is failed" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel", nil];
+            [alert show];
         }
     }];
 }

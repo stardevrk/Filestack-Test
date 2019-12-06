@@ -35,10 +35,11 @@
         config.imageURLExportPreset = FSImageURLExportPresetCurrent;
         config.maximumSelectionAllowed = 10;
 
-        config.availableCloudSources = @[FSCloudSource.dropbox,
-                                         FSCloudSource.googleDrive,
-                                         FSCloudSource.googlePhotos,
-                                         FSCloudSource.customSource];
+//        config.availableCloudSources = @[FSCloudSource.dropbox,
+//                                         FSCloudSource.googleDrive,
+//                                         FSCloudSource.googlePhotos,
+//                                         FSCloudSource.customSource];
+        config.availableCloudSources = @[];
 
         config.availableLocalSources = @[FSLocalSource.camera,
                                          FSLocalSource.photoLibrary,
