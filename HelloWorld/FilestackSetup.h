@@ -13,9 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 // Set your app's URL scheme here.
 static NSString *appURLScheme = @"tutorial";
 // Set your Filestack's API key here.
-static NSString *filestackAPIKey = @"AXkc2JgbsSQVuCZV9w4iBz";
+static NSString *filestackAPIKey = @"Your-Key";
 // Set your Filestack's app secret here.
-static NSString *filestackAppSecret = @"XQSOOK6NVFFYBAFORLKVXLJBSU";
+static NSString *filestackAppSecret = @"Your-App-Secret";
 
 @class FSFilestackClient;
 
